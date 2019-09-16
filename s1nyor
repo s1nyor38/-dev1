@@ -1,0 +1,17 @@
+import random
+print("oyunuma hoşgeldiniz")
+a = random.randint(0, 100)
+tahmin = 39
+ad = input("lütfen adınızı girin:")
+print("girilen ad:", ad)
+while True:
+    sayı = int(input("lütfen sayı girin:"))
+    print("girilen sayı:", sayı)
+    if sayı < 39:
+        print("küçük bir sayı girdin")
+
+    if sayı > 39:
+        print("büyük bir sayı girdin")
+    if sayı == 39:
+        print("tebrikler bildiniz.")
+        break
